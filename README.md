@@ -6,12 +6,18 @@ Although the Physical Web could seem similar to the traditional Web we are used 
 
 Project Magnet is trying to address those differences and at the same time providing an experience that is fully customisable and in control of the end-user.
 
-## Collaboration
+## Communication channels
 
-IRC: [irc://irc.mozilla.org/magnet](irc://irc.mozilla.org/magnet)
+You can keep an eye on our progress at our [Wiki] (https://github.com/mozilla-magnet/magnet/wiki)
 
-Discourse: [project-magnet](https://discourse.mozilla-community.org/c/connected-devices/project-magnet)
+You can join our IRC channel where we will be more than happy to answer your questions and hear your ideas: [irc://irc.mozilla.org/magnet](irc://irc.mozilla.org/magnet)
 
-Client: [magnet-client](https://github.com/mozilla-magnet/magnet-client)
+You can post messages in discourse in case you want to start an offline discussion: [project-magnet](https://discourse.mozilla-community.org/c/connected-devices/project-magnet)
 
-Metadata Server: [magnet-metadata-server](https://github.com/mozilla-magnet/magnet-metadata-service)
+## Source code
+
+Magnet comprises mostly two modules, both of them are opensource and available at GitHub:
+
+* Client: [magnet-client](https://github.com/mozilla-magnet/magnet-client)
+
+* Metadata Server: [magnet-metadata-server](https://github.com/mozilla-magnet/magnet-metadata-service)
