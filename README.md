@@ -21,3 +21,6 @@ Magnet comprises mostly two modules, both of them are opensource and available a
 * Client: [magnet-client](https://github.com/mozilla-magnet/magnet-client)
 
 * Metadata Server: [magnet-metadata-server](https://github.com/mozilla-magnet/magnet-metadata-service)
+
+## How can I contribute?
+
