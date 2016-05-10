@@ -24,10 +24,10 @@ Magnet comprises mostly two modules, both of them are opensource and available a
 
 ## How can I contribute?
 
-1. By testing Magnet and providing us feedback. More information in our wiki.
-2. Contributing to the Magnet open source project. Learn how do it in our wiki.
+1. By testing Magnet and providing us feedback. More information in our [Testing Magnet wiki page](https://github.com/mozilla-magnet/magnet/wiki/Building-Magnet-client).
+2. Contributing to the Magnet open source project. Learn how do it in our [Building Magnet wiki page](https://github.com/mozilla-magnet/magnet/wiki/Building-Magnet-client).
 
 #### Do I need anything special to use Magnet?
 
-Magnet is intended to discover Physical Web objects, which are also known as beacons. There are many providers of beacons but if you don’t want to buy any, you can simply configure your laptop to emulate a beacon. You can check all the info about this at the Beacons Wiki Page.
+Magnet is intended to discover Physical Web objects, which are also known as beacons. There are many providers of beacons but if you don’t want to buy any, you can simply configure your laptop to emulate a beacon. You can check all the info about this at the [Beacons web page](https://github.com/mozilla-magnet/magnet/wiki/Beacons).
 
