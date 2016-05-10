@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/mozilla-magnet/magnet.png?label=ready&title=Ready)](https://waffle.io/mozilla-magnet/magnet)
 # Magnet
 
 In the coming years we are going to be surrounded by more and more things that your device can interact with. Many of these things are going to be identified by an URL, and because of that, the name "Physical Web" has been coined to refer to that environment.
