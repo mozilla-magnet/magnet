@@ -24,7 +24,7 @@ Magnet comprises mostly two modules, both of them are opensource and available a
 
 ## How can I contribute?
 
-1. By testing Magnet and providing us feedback. More information in our [Testing Magnet wiki page](https://github.com/mozilla-magnet/magnet/wiki/Building-Magnet-client).
+1. By testing Magnet and providing us feedback. More information in our [Testing Magnet wiki page](https://github.com/mozilla-magnet/magnet/wiki/Testing-Magnet).
 2. Contributing to the Magnet open source project. Learn how do it in our [Building Magnet wiki page](https://github.com/mozilla-magnet/magnet/wiki/Building-Magnet-client).
 
 #### Do I need anything special to use Magnet?
