@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
+  <title>Get Magnet</title>
+  <style>
+    @import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,300italic,400italic,300);
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font: 16px 'Fira Sans';
+      color: #444;
+    }
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .button {
+      display: block;
+      border: 0;
+      padding: 13px 14px;
+      border-radius: 4px;
+      color: #fff;
+      font: inherit;
+      font-style: italic;
+      font-weight: 400;
+      font-size: 27px;
+      text-align: center;
+      line-height: 1;
+      cursor: pointer;
+      text-decoration: none;
+      margin: 20px;
+
+      background: #49A3FF;
+      box-shadow:
+        0px 1px 3px 0px rgba(0,0,0,0.21),
+        0px 2px 10px 0px rgba(0,0,0,0.13);
+      border-radius: 4px;
+
+      -webkit-user-select: none;
+         -moz-user-select: none;
+              user-select: none;
+    }
+
+    .button:active {
+      opacity: 0.7;
+      box-shadow: none;
+      transform: translateY(1px);
+    }
+  </style>
+</head>
+<body>
+<script>
+  (function() {
+
+    var render = {
+      android: function() {
+        var a = document.createElement('a');
+        a.href = 'https://github.com/mozilla-magnet/magnet-client/releases/download/nightly/app-release.apk';
+        a.textContent = 'Download Magnet';
+        a.className = 'button';
+        return a;
+      },
+
+      ios: function() {
+        var iframe = document.createElement('iframe');
+        iframe.src = 'https://docs.google.com/a/mozilla.com/forms/d/1SP_W5warjpvvJahLsEZ5-QdMLJGSiy0ceGQsqRf5JPM/viewform?embedded=true';
+        iframe.style.width = '100%';
+        iframe.style.height = '100%';
+        iframe.style.display = 'block';
+        iframe.style.border = 0;
+        iframe.frameborder = 0;
+        iframe.marginheight = 0;
+        iframe.innerHTML = 'Loading...';
+        return iframe;
+      },
+
+      unsupported: function() {
+        var el = document.createElement('h3');
+        el.textContent = 'Your device is not supported';
+        return el;
+      }
+    };
+
+    function platform() {
+      var ua = navigator.userAgent;
+      if (/Android/.test(ua)) return 'android';
+      else if (/iPhone/.test(ua)) return 'ios';
+      else return 'unsupported';
+    }
+
+
+
+    var el = render[platform()]();
+    document.body.appendChild(el);
+  })();
+</script>
+</body>
+</html>
