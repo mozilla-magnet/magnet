@@ -70,16 +70,7 @@
       },
 
       ios: function() {
-        var iframe = document.createElement('iframe');
-        iframe.src = 'https://docs.google.com/a/mozilla.com/forms/d/1SP_W5warjpvvJahLsEZ5-QdMLJGSiy0ceGQsqRf5JPM/viewform?embedded=true';
-        iframe.style.width = '100%';
-        iframe.style.height = '100%';
-        iframe.style.display = 'block';
-        iframe.style.border = 0;
-        iframe.frameborder = 0;
-        iframe.marginheight = 0;
-        iframe.innerHTML = 'Loading...';
-        return iframe;
+        window.location = 'https://docs.google.com/a/mozilla.com/forms/d/1SP_W5warjpvvJahLsEZ5-QdMLJGSiy0ceGQsqRf5JPM/viewform';
       },
 
       unsupported: function() {
@@ -99,7 +90,7 @@
 
 
     var el = render[platform()]();
-    document.body.appendChild(el);
+    if (el) document.body.appendChild(el);
   })();
 </script>
 </body>
